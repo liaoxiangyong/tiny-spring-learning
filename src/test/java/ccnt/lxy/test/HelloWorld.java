@@ -5,13 +5,13 @@ package ccnt.lxy.test;
  */
 public class HelloWorld {
     private String name;
-    private int age;
+    private String age;
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setAge(int age) {
+    public void setAge(String age) {
         this.age = age;
     }
 

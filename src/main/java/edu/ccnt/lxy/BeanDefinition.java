@@ -11,7 +11,7 @@ public class BeanDefinition {       //bean定义类
 
     private String beanClassName;   //bean的类名
 
-    private PropertyValues propertyValues;      //bean的属性
+    private PropertyValues propertyValues = new PropertyValues();      //bean的属性
 
     public BeanDefinition() {
     }

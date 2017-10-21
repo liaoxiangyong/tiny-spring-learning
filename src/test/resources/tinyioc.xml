@@ -12,5 +12,4 @@
         <property name="name" value="Hello World!"></property>
         <property name="age" value="666"></property>
     </bean>
-
 </beans>
