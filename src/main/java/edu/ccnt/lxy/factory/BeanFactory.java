@@ -10,5 +10,5 @@ public interface BeanFactory {
     Object getBean(String beanName);
 
     //注册bean
-    void registerBean(String beanName, BeanDefinition beanDefinition);
+    void registerBean(String beanName, BeanDefinition beanDefinition) throws Exception;
 }

@@ -11,6 +11,8 @@ public class BeanDefinition {       //bean定义类
 
     private String beanClassName;   //bean的类名
 
+    private PropertyValues propertyValues;      //bean的属性
+
     public BeanDefinition() {
     }
 
@@ -41,5 +43,13 @@ public class BeanDefinition {       //bean定义类
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+    }
+
+    public PropertyValues getPropertyValues() {
+        return propertyValues;
+    }
+
+    public void setPropertyValues(PropertyValues propertyValues) {
+        this.propertyValues = propertyValues;
     }
 }
